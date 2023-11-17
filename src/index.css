@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .parrafo {
+    font-size: 0.75rem;
+    color: #4a5568;
+    font-weight: 700;
+  }
+  .img {
+    background-image: url('./images/pattern-bg-desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .imgArrow{
+    background-image: url('./images/icon-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
